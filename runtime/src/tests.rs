@@ -1,6 +1,5 @@
 use crate::{AccountId, Balance, Contracts, Event, Runtime, System};
 use frame_support::traits::GenesisBuild;
-use pallet_contracts::{Error as ContractError, Event as ContractEvent};
 
 mod contracts;
 
