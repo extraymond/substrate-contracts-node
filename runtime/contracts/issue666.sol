@@ -13,8 +13,8 @@ contract Inc {
     }
 
     function superFlip () public {
-
 	    _flipper.flip();
         emit Howl();
     }
+
 }
